@@ -1,5 +1,5 @@
 public class Main {
-    public static void Main(){
+    public static void  main(String[] args){
         Group group = new Group("0001", "Oleg", "Alexovich");
         group.addTaskList();
         group.addStudent("0002","Ivan","Ivanov");

@@ -17,7 +17,7 @@ public class Group {
 
     public void getStudentData(){
             for (Student student : this.studentList)
-                System.out.printf("This is the student ID: %s. Name %s %s. Task status %s",
+                System.out.printf("This is the student ID: %s. Name %s %s. Task status %s \n",
                         student.getStudentId(),
                         student.getFirstName(),
                         student.getSecondName(),
